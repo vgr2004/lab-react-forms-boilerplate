@@ -1,0 +1,42 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.form-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.success-message {
+  color: #28a745;
+  margin: 10px 0;
+}
+
+span {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+}
